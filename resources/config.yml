@@ -1,0 +1,6 @@
+# OneHeart Challenge Config File
+
+# List of GameIDs and their corresponding world names
+games:
+  test: world_test # test is GameID and world_test is world name..
+  
