@@ -1,0 +1,16 @@
+---
+name: OneHeart
+version: 0.0.1
+main: AmitxD\OneHeart\OneHeart
+api: 5.3.2
+src-namespace-prefix: AmitxD\OneHeart
+commands:
+  oneheart:
+    description: OneHeart challenge!
+    usage: "/oneheart"
+    permission: oneheart.command.oneheart
+permissions:
+  oneheart.command.oneheart:
+    description: "Allows the user to run the OneHeart join command"
+    default: op
+...
