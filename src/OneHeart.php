@@ -65,6 +65,8 @@ class OneHeart extends PluginBase {
         if (in_array($playerName, $playersInOneHeart)) {
             $this->removePlayer($player);
         }
+        $player->setMaxHealth(20);
+        $player->setHealth(20);
         $player->sendMessage(MessageManager::LEAVE_GAME);
     }
     
